@@ -2,7 +2,7 @@
 % Please edit documentation in R/theme_mps_noto.R
 \name{theme_mps_noto}
 \alias{theme_mps_noto}
-\title{an opinionated [ggplot2] theme}
+\title{an opinionated \link{ggplot2} theme}
 \usage{
 theme_mps_noto(
   base_size = 11,
@@ -23,19 +23,25 @@ available on your system.}
 \item{base_rect_size}{default rect size}
 }
 \description{
-Provides a [ggplot2] theme.
+Provides a \link{ggplot2} theme.
 }
 \details{
 Uses Google's Noto Sans Display font by default. Using the
-  [ragg::agg_png()] or related graphics device should ensure the font is
-  properly detected and used.
+\code{\link[ragg:agg_png]{ragg::agg_png()}} or related graphics device should ensure the font is
+properly detected and used.
 }
 \examples{
+library(ggplot2)
+library(ragg)
+
+file <- tempfile(fileext = '.png')
+agg_png(file)
 ggplot(cars) +
   geom_point(aes(speed, dist)) +
   theme_mps_noto() +
   labs(title = "Cars", subtitle = "Speed and stopping distance",
-       caption = "Ezekiel, M (1930) Methods od Correlation Analysis",
+       caption = "Ezekiel, M (1930) Methods of Correlation Analysis",
        x = "Speed [mph]",
        y = "Stopping Distance [ft]")
+dev.off()
 }

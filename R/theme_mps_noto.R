@@ -14,13 +14,19 @@
 #'   [ragg::agg_png()] or related graphics device should ensure the font is
 #'   properly detected and used.
 #' @examples
+#' library(ggplot2)
+#' library(ragg)
+#'
+#' file <- tempfile(fileext = '.png')
+#' agg_png(file)
 #' ggplot(cars) +
 #'   geom_point(aes(speed, dist)) +
 #'   theme_mps_noto() +
 #'   labs(title = "Cars", subtitle = "Speed and stopping distance",
-#'        caption = "Ezekiel, M (1930) Methods od Correlation Analysis",
+#'        caption = "Ezekiel, M (1930) Methods of Correlation Analysis",
 #'        x = "Speed [mph]",
 #'        y = "Stopping Distance [ft]")
+#' dev.off()
 theme_mps_noto <- function(base_size = 11,
                              base_family = "NotoSansDisplay_Condensed",
                              base_line_size = 0.5,
