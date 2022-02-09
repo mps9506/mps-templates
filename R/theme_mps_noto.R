@@ -2,12 +2,17 @@
 #'
 #' Provides a [ggplot2] theme.
 #'
-#' @param base_family defaults to \code{"NotoSansDisplay_Condensed"}. Which is provided in the package. Generally, use a sensible sans serif font that is available on your system.
+#' @param base_family defaults to \code{"NotoSansDisplay_Condensed"}. Which is
+#'   provided in the package. Generally, use a sensible sans serif font that is
+#'   available on your system.
 #' @param base_size default text size in px
 #' @param base_line_size default line size
 #' @param base_rect_size default rect size
 #' @import ggplot2
 #' @export
+#' @details Uses Google's Noto Sans Display font by default. Using the
+#'   [ragg::agg_png()] or related graphics device should ensure the font is
+#'   properly detected and used.
 #' @examples
 #' ggplot(cars) +
 #'   geom_point(aes(speed, dist)) +

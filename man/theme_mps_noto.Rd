@@ -14,7 +14,9 @@ theme_mps_noto(
 \arguments{
 \item{base_size}{default text size in px}
 
-\item{base_family}{defaults to \code{"NotoSansDisplay_Condensed"}. Which is provided in the package. Generally, use a sensible sans serif font that is available on your system.}
+\item{base_family}{defaults to \code{"NotoSansDisplay_Condensed"}. Which is
+provided in the package. Generally, use a sensible sans serif font that is
+available on your system.}
 
 \item{base_line_size}{default line size}
 
@@ -23,8 +25,17 @@ theme_mps_noto(
 \description{
 Provides a [ggplot2] theme.
 }
+\details{
+Uses Google's Noto Sans Display font by default. Using the
+  [ragg::agg_png()] or related graphics device should ensure the font is
+  properly detected and used.
+}
 \examples{
 ggplot(cars) +
   geom_point(aes(speed, dist)) +
-  theme_mps_noto()
+  theme_mps_noto() +
+  labs(title = "Cars", subtitle = "Speed and stopping distance",
+       caption = "Ezekiel, M (1930) Methods od Correlation Analysis",
+       x = "Speed [mph]",
+       y = "Stopping Distance [ft]")
 }
