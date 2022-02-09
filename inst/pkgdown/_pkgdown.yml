@@ -1,0 +1,21 @@
+template:
+  bootstrap: 5
+  bootswatch: journal
+  params:
+    mathjax: true
+  bslib:
+    base_font: {google: "Cormorant Garamond"}
+    heading_font: {google: "Noto Sans Display"}
+    code_font: {google: "JetBrains Mono"}
+    font_scale: 1.2
+
+navbar:
+  type: light
+  bg: light
+  structure:
+    right: [search, github]
+
+
+authors:
+  Michael Schramm:
+    href: https://github.com/mps9506

@@ -1,0 +1,18 @@
+Package: mpsTemplates
+Type: Package
+Title: Templates for Me
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Michael",
+    family = "Schramm",
+    role = c("aut", "cre"),
+    email = "mpschramm@gmail.com")
+    )
+Description: Provides opinionated ggplot2 themes and other templates for my own use.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+  ggplot2,
+  systemfonts
+RoxygenNote: 7.1.2
