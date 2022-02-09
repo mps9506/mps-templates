@@ -8,6 +8,13 @@
 \description{
 The mpsTemplates package provides opinionated ggplot themes
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://mps9506.github.io/mps-templates/}
+}
+
+}
 \author{
 \strong{Maintainer}: Michael Schramm \email{mpschramm@gmail.com}
 
