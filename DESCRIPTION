@@ -17,3 +17,4 @@ Imports:
   systemfonts
 RoxygenNote: 7.1.2
 Roxygen: list(markdown = TRUE)
+URL: https://mps9506.github.io/mps-templates/
