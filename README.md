@@ -6,6 +6,7 @@
 <!-- badges: start -->
 
 [![license](https://img.shields.io/badge/license-MIT%20+%20file%20LICENSE-lightgrey.svg)](https://choosealicense.com/)
+[![R-CMD-check](https://github.com/mps9506/mps-templates/workflows/R-CMD-check/badge.svg)](https://github.com/mps9506/mps-templates/actions)
 <!-- badges: end -->
 
 ``` r
