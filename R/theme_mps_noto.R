@@ -2,20 +2,31 @@
 #'
 #' Provides a [ggplot2] theme.
 #'
-#' @param base_family defaults to \code{"NotoSansDisplay_Condensed"}. Which is provided in the package. Generally, use a sensible sans serif font that is available on your system.
+#' @param base_family defaults to \code{"NotoSansDisplay_Condensed"}. Which is
+#'   provided in the package. Generally, use a sensible sans serif font that is
+#'   available on your system.
 #' @param base_size default text size in px
 #' @param base_line_size default line size
 #' @param base_rect_size default rect size
 #' @import ggplot2
 #' @export
+#' @details Uses Google's Noto Sans Display font by default. Using the
+#'   [ragg::agg_png()] or related graphics device should ensure the font is
+#'   properly detected and used.
 #' @examples
+#' library(ggplot2)
+#' library(ragg)
+#'
+#' file <- tempfile(fileext = '.png')
+#' agg_png(file)
 #' ggplot(cars) +
 #'   geom_point(aes(speed, dist)) +
 #'   theme_mps_noto() +
 #'   labs(title = "Cars", subtitle = "Speed and stopping distance",
-#'        caption = "Ezekiel, M (1930) Methods od Correlation Analysis",
+#'        caption = "Ezekiel, M (1930) Methods of Correlation Analysis",
 #'        x = "Speed [mph]",
 #'        y = "Stopping Distance [ft]")
+#' dev.off()
 theme_mps_noto <- function(base_size = 11,
                              base_family = "NotoSansDisplay_Condensed",
                              base_line_size = 0.5,

@@ -9,10 +9,15 @@ Authors@R: c(
     email = "mpschramm@gmail.com")
     )
 Description: Provides opinionated ggplot2 themes and other templates for my own use.
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
+  fs,
   ggplot2,
   systemfonts
+Suggests:
+  ragg
 RoxygenNote: 7.1.2
+Roxygen: list(markdown = TRUE)
+URL: https://mps9506.github.io/mps-templates/
