@@ -25,7 +25,10 @@ ggplot(cars) +
 
 ## pkgdown
 
-add/edit \_pkgdown.yaml in the package root directory:
+The package includes some pkgdown template files intended for use by my
+packages.
+
+To use, add/edit \_pkgdown.yaml in the package root directory:
 
 ``` yaml
 template:
@@ -39,6 +42,31 @@ navbar:
     right: [search, github]
 ```
 
-add the following to the DESCRIPTION:
+AND add the following to the DESCRIPTION:
 
     Config/Needs/website: mps9506/mpsTemplates
+
+Use rlibs Github Action to build the pkgdown documentation:
+
+``` r
+usethis::use_github_action("pkgdown")
+```
+
+## rmarkdown
+
+The package includes the following rmarkdown templates:
+
+-   *mps pdf Cormorant template*: Intended for pdf reports.
+
+These are available in the RStudio New -> Rmarkdown selector after
+installing this package.
+
+## bookdown
+
+The package include the following project:
+
+-   *mps Bookdown Single Page Website*: Intended for single page
+    websites hosted on github pages
+
+These are available by loading the package and selecting “New Project”
+-> “New Directory” -> “mps Github Pages Website”
