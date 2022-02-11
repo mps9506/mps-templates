@@ -49,13 +49,22 @@ usethis::pr_finish() ## cleanup
 
 To preview the book:
 ```{r eval=FALSE}
-bookdown::render_book()
+bookdown::render_book("document.Rmd")
 ```
 
 blah blah [@rcore].
 
 ## Subheading
 
+\begin{equation}
+  \left(\prod_{i=1}^{n}y_i\right)^{\frac{1}{n}} =
+  \exp\left[\frac{1}{n}\sum_{i=1}^n\log{y_i}\right],
+  \quad \textrm{when} \quad y_1, y_2, ..., y_n > 0
+  (\#eq:gmean)
+\end{equation}
+
+
+Cross reference equations by using `\@ref(eq:gmean")` see Equation \@ref(eq:gmean).
 
 # Chapter 2 {-}
 

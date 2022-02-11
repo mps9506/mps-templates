@@ -56,6 +56,12 @@ pre code {
     height: 0px;
 }
 
+/*------------ TOC --------------*/
+
+.summary{
+  font-family: 'Noto Sans Display', sans-serif;
+}
+
 /*____Code Chunks____*/
 
 .sourceCode pre {
