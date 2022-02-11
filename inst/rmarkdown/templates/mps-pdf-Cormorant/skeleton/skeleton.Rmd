@@ -182,7 +182,7 @@ formatted - \frc{5/8}
 
 \rightarrow, \leftarrow
 
-**Greek Alphbet and Math**
+**Greek Alphabet and Math**
 
 $\alpha A, \beta B, \gamma \Gamma, \delta \Delta, \epsilon \varepsilon E, \zeta Z, \eta H, \theta \vartheta \Theta, \iota I, \kappa K, \lambda \Lambda, \mu M, \nu N, \xi \Xi, o O, \pi \Pi, \rho \varrho P, \sigma \Sigma, \tau T, \upsilon \Upsilon, \phi \varphi \Phi, \chi X, \psi \Psi, \omega \Omega$
 
