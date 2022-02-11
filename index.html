@@ -72,7 +72,8 @@
 <div class="section level2">
 <h2 id="pkgdown">pkgdown<a class="anchor" aria-label="anchor" href="#pkgdown"></a>
 </h2>
-<p>add/edit _pkgdown.yaml in the package root directory:</p>
+<p>The package includes some pkgdown template files intended for use by my packages.</p>
+<p>To use, add/edit _pkgdown.yaml in the package root directory:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1"></a><span class="fu">template</span><span class="kw">:</span></span>
 <span id="cb2-2"><a href="#cb2-2"></a><span class="at">  </span><span class="fu">package</span><span class="kw">:</span><span class="at"> mpsTemplates</span></span>
 <span id="cb2-3"><a href="#cb2-3"></a><span class="at">  </span><span class="fu">bootstrap</span><span class="kw">:</span><span class="at"> </span><span class="dv">5</span></span>
@@ -82,8 +83,31 @@
 <span id="cb2-7"><a href="#cb2-7"></a><span class="at">  </span><span class="fu">bg</span><span class="kw">:</span><span class="at"> light</span></span>
 <span id="cb2-8"><a href="#cb2-8"></a><span class="at">  </span><span class="fu">structure</span><span class="kw">:</span></span>
 <span id="cb2-9"><a href="#cb2-9"></a><span class="at">    </span><span class="fu">right</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="at">search</span><span class="kw">,</span><span class="at"> github</span><span class="kw">]</span></span></code></pre></div>
-<p>add the following to the DESCRIPTION:</p>
+<p>AND add the following to the DESCRIPTION:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>Config<span class="op">/</span>Needs<span class="op">/</span>website<span class="op">:</span><span class="st"> </span>mps9506<span class="op">/</span>mpsTemplates</span></code></pre></div>
+<p>Use rlibs Github Action to build the pkgdown documentation:</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu">usethis</span><span class="fu">::</span><span class="fu">use_github_action</span><span class="op">(</span><span class="st">"pkgdown"</span><span class="op">)</span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="rmarkdown">rmarkdown<a class="anchor" aria-label="anchor" href="#rmarkdown"></a>
+</h2>
+<p>The package includes the following rmarkdown templates:</p>
+<ul>
+<li>
+<em>mps pdf Cormorant template</em>: Intended for pdf reports.</li>
+</ul>
+<p>These are available in the RStudio New -&gt; Rmarkdown selector after installing this package.</p>
+</div>
+<div class="section level2">
+<h2 id="bookdown">bookdown<a class="anchor" aria-label="anchor" href="#bookdown"></a>
+</h2>
+<p>The package include the following project:</p>
+<ul>
+<li>
+<em>mps Bookdown Single Page Website</em>: Intended for single page websites hosted on github pages</li>
+</ul>
+<p>These are available by loading the package and selecting “New Project” -&gt; “New Directory” -&gt; “mps Github Pages Website”</p>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="license">
