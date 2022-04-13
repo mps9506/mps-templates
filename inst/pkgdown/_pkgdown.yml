@@ -1,6 +1,6 @@
 template:
   bootstrap: 5
-  bootswatch: journal
+  bootswatch: solar
   params:
     mathjax: true
   bslib:
@@ -10,8 +10,8 @@ template:
     font_scale: 1.2
 
 navbar:
-  type: light
-  bg: light
+  type: dark
+  bg: dark
   structure:
     right: [search, github]
 
