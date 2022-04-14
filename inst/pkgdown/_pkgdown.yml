@@ -10,11 +10,11 @@ template:
     font_scale: 1.2
     pre-bg: "#a9bdbd"
     pre-color: "#073642"
-    pre-border: "rgba(0, 0, 0, 0.15)"
+    #pre-border: "rgba(0, 0, 0, 0.15)"
 
 navbar:
   bg: dark
-  type: light
+  type: dark
   structure:
     right: [search, github]
 
