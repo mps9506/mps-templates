@@ -11,7 +11,7 @@ knitr::opts_chunk$set(
   fig.path = "man/figures/README-",
   out.width = "100%",
   dev = "ragg_png",
-  fig.width = 8,
+  out.width = "100%",
   dpi = 300
 )
 ```
@@ -19,8 +19,10 @@ knitr::opts_chunk$set(
 # mpsTemplates
 
 <!-- badges: start -->
+
 [![license](https://img.shields.io/badge/license-MIT + file LICENSE-lightgrey.svg)](https://choosealicense.com/)
 [![R-CMD-check](https://github.com/mps9506/mps-templates/workflows/R-CMD-check/badge.svg)](https://github.com/mps9506/mps-templates/actions)
+
 <!-- badges: end -->
 
 ```{r}
