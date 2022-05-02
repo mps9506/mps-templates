@@ -1,9 +1,9 @@
 pandoc: 2.7.3
-pkgdown: 2.0.2
+pkgdown: 2.0.3
 pkgdown_sha: ~
 articles: {}
-last_built: 2022-04-14T18:31Z
+last_built: 2022-05-02T19:38Z
 urls:
-  reference: https://mps9506.github.io/mps-templates/reference
-  article: https://mps9506.github.io/mps-templates/articles
+  reference: https://mps9506.github.io/mpsTemplates/reference
+  article: https://mps9506.github.io/mpsTemplates/articles
 

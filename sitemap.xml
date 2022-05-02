@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mps9506.github.io/mps-templates/404.html</loc>
+    <loc>https://mps9506.github.io/mpsTemplates/404.html</loc>
   </url>
   <url>
-    <loc>https://mps9506.github.io/mps-templates/LICENSE-text.html</loc>
+    <loc>https://mps9506.github.io/mpsTemplates/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>https://mps9506.github.io/mps-templates/LICENSE.html</loc>
+    <loc>https://mps9506.github.io/mpsTemplates/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://mps9506.github.io/mps-templates/authors.html</loc>
+    <loc>https://mps9506.github.io/mpsTemplates/authors.html</loc>
   </url>
   <url>
-    <loc>https://mps9506.github.io/mps-templates/index.html</loc>
+    <loc>https://mps9506.github.io/mpsTemplates/index.html</loc>
   </url>
   <url>
-    <loc>https://mps9506.github.io/mps-templates/reference/index.html</loc>
+    <loc>https://mps9506.github.io/mpsTemplates/reference/index.html</loc>
   </url>
   <url>
-    <loc>https://mps9506.github.io/mps-templates/reference/mpsTemplates-package.html</loc>
+    <loc>https://mps9506.github.io/mpsTemplates/reference/mpsTemplates-package.html</loc>
   </url>
   <url>
-    <loc>https://mps9506.github.io/mps-templates/reference/theme_mps_noto.html</loc>
+    <loc>https://mps9506.github.io/mpsTemplates/reference/theme_mps_noto.html</loc>
   </url>
 </urlset>
