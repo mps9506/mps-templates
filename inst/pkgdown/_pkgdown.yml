@@ -8,9 +8,8 @@ template:
     heading_font: {google: "Noto Sans Display"}
     code_font: {google: "JetBrains Mono"}
     font_scale: 1.2
-    pre-bg: "var(--bs-gray-400)" # this is getting overridden
-    pre-color: "#073642"
-    pre-border: "rgba(0, 0, 0, 0.15)"
+    code-bg: "var(--bs-gray-400)" # this is getting overridden
+    border-color: "rgba(0, 0, 0, 0.15)"
 
 navbar:
   bg: dark
