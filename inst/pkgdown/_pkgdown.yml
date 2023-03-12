@@ -10,7 +10,6 @@ template:
     code_font: {google: "JetBrains Mono"}
     font_scale: 1.2
 
-
 navbar:
   bg: dark
   type: dark
