@@ -1,6 +1,7 @@
 template:
   bootstrap: 5
   bootswatch: solar
+  theme: solarized-dark
   params:
     mathjax: true
   bslib:
@@ -8,8 +9,8 @@ template:
     heading_font: {google: "Noto Sans Display"}
     code_font: {google: "JetBrains Mono"}
     font_scale: 1.2
-    code-bg: "var(--bs-gray-400)" # this is getting overridden
-    border-color: "rgba(0, 0, 0, 0.15)"
+    code-bg: "#1C2023"
+
 
 navbar:
   bg: dark
