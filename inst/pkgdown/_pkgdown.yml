@@ -9,8 +9,6 @@ template:
     heading_font: {google: "Noto Sans Display"}
     code_font: {google: "JetBrains Mono"}
     font_scale: 1.2
-    code-bg: "#1C2023"
-
 
 navbar:
   bg: dark
