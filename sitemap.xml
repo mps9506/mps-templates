@@ -10,6 +10,12 @@
     <loc>https://mps9506.github.io/mpsTemplates/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://mps9506.github.io/mpsTemplates/articles/Noto-Dark.html</loc>
+  </url>
+  <url>
+    <loc>https://mps9506.github.io/mpsTemplates/articles/index.html</loc>
+  </url>
+  <url>
     <loc>https://mps9506.github.io/mpsTemplates/authors.html</loc>
   </url>
   <url>
@@ -25,6 +31,12 @@
     <loc>https://mps9506.github.io/mpsTemplates/reference/mpsTemplates-package.html</loc>
   </url>
   <url>
+    <loc>https://mps9506.github.io/mpsTemplates/reference/noto_dark_geom_defaults.html</loc>
+  </url>
+  <url>
     <loc>https://mps9506.github.io/mpsTemplates/reference/theme_mps_noto.html</loc>
+  </url>
+  <url>
+    <loc>https://mps9506.github.io/mpsTemplates/reference/theme_mps_noto_dark.html</loc>
   </url>
 </urlset>
