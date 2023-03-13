@@ -25,4 +25,18 @@ init_fonts <- function() {
     italic = NotoSansDisplay_Italic,
     bolditalic = NotoSansDisplay_BoldItalic
   )
+
+  NotoSansDisplay_SC_Medium <- fs::path_package("mpsTemplates", "fonts", "NSD_sc", "NotoSansDisplay_SemiCondensed-Medium.ttf")
+  NotoSansDisplay_SC_Bold <- fs::path_package("mpsTemplates", "fonts", "NSD_sc", "NotoSansDisplay_SemiCondensed-Bold.ttf")
+  NotoSansDisplay_SC_Italic <- fs::path_package("mpsTemplates", "fonts", "NSD_sc", "NotoSansDisplay_SemiCondensed-MediumItalic.ttf")
+  NotoSansDisplay_SC_BoldItalic <- fs::path_package("mpsTemplates", "fonts", "NSD_sc", "NotoSansDisplay_SemiCondensed-BoldItalic.ttf")
+
+   systemfonts::register_font(
+    "NotoSansDisplay_SC",
+    plain = NotoSansDisplay_SC_Medium,
+    bold = NotoSansDisplay_SC_Bold,
+    italic = NotoSansDisplay_SC_Italic,
+    bolditalic = NotoSansDisplay_SC_BoldItalic
+  )
+
   }
