@@ -16,7 +16,8 @@ Imports:
   ggplot2,
   systemfonts
 Suggests:
-  ragg
-RoxygenNote: 7.1.2
+    ragg,
+    rmarkdown
+RoxygenNote: 7.2.2
 Roxygen: list(markdown = TRUE)
 URL: https://mps9506.github.io/mpsTemplates/
